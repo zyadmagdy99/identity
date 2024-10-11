@@ -41,10 +41,9 @@ export default function Navbar() {
         <p className='font-bold text-lg'>identety.</p>
       </div>
 
-      {/* Desktop Links - Hidden when mobile menu is open */}
+   
       <div className={`hidden md:flex gap-4 text-black ${isMobileMenuOpen ? 'hidden' : ''}`}>
-        {user !== null && (
-          <>
+       
             <Link href="/">
               <div className='flex gap-3 items-center text-xl hover:cursor-pointer hover:bg-purple-100 p-2 rounded-xl'>
                 <p>Overview</p>
@@ -66,16 +65,15 @@ export default function Navbar() {
               <p>Logout</p>
             </div>
             </Link>
-          </>
-        )}
+       
       </div>
 
-      {/* Mobile Menu Toggle Button (SVG) - Hidden when mobile menu is open */}
+
       <div className={`text-3xl md:hidden ${isMobileMenuOpen ? 'hidden' : ''}`} onClick={toggleMenu}>
         <IoAppsSharp id='svg' />
       </div>
 
-      {/* Mobile Menu - Shown when mobile menu is open */}
+  
       <div className={`${isMobileMenuOpen ? 'flex' : 'hidden'} w-full flex justify-between px-3 h-full gap-4 bg-[#F0F2F5] border-[4px] border-[#aa96e2] md:hidden`}>
         <div>
         <Link href="/">
