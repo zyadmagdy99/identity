@@ -16,7 +16,7 @@ export default function Home() {
     }, [])
     const orderedPosts = [...posts].reverse();
   return (
-    <div className='bg-[#F0F2F5] flex justify-center'>
+    <div className='bg-[#F0F2F5] m-auto flex justify-center'>
       <div className='hidden xl:flex h-full w-[20%] fixed left-0 mt-24 ms-6 rounded-lg  flex-col gap-4'>
         <div className='rounded-xl'><img className='rounded-xl' src="/pexels-kevin-malik-8763269.jpg" alt="" /></div>
         <div className=''><img className='rounded-xl' src="/dog.jpg" alt="" /></div>
@@ -35,7 +35,7 @@ export default function Home() {
       
       {orderedPosts?.map((post) => (
   <Link href={`/single/${post.id}`} key={post.id}>
-    <div className="w-full flex flex-col p-4 gap-4 my-8 bg-white rounded-xl max-w-[40rem] m-auto">
+    <div className=" flex flex-col p-4 gap-4 my-8 w-[22rem] md:w-full bg-white rounded-xl max-w-[40rem] m-auto">
       <div className="flex gap-3">
         <div className="w-10 rounded-full">
           <img className="w-full" src={post.user.photo} alt="" />

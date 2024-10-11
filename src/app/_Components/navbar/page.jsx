@@ -29,7 +29,7 @@ export default function Navbar() {
     };
   
     return (
-      <div className='bg-indigo-300 p-3 md:px-10 flex justify-between top-0 items-center w-full fixed'>
+      <div className='bg-indigo-300 p-3 md:px-10 gap-3 flex justify-between top-0 items-center w-full fixed'>
       <div className={`flex gap-2 items-center ${isMobileMenuOpen ? 'hidden' : ''}`}>
         <Image
           className="rounded-xl"
