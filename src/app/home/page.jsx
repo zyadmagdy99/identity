@@ -27,7 +27,7 @@ export default function Home() {
       
       <div className='hover:cursor-pointer p-10 flex justify-between items-center max-w-[40rem] mt-24 m-auto bg-gradient-to-r from-[#A5B4FC] to-[#87019c91] bg-white rounded-xl'>
         <div className='w-10'><img className='w-full' src="./images.png" alt="" /></div>
-        <div className='bg-[#F0F2F5] p-2 px-8 rounded-2xl sm:w-[25rem]'> what's on your mind?</div>
+        <div className='bg-[#F0F2F5] p-2 px-8 rounded-2xl sm:w-[25rem]'> what is on your mind?</div>
         <IoMdPhotos className='text-2xl' />
 
       </div>

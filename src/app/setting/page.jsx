@@ -24,7 +24,7 @@ export default function Setting() {
         </div>
         <div className='p-3'>
           <h1 className='font-semibold text-xl hover:cursor-pointer'>Sales</h1>
-          <p className='text-[#00000088] text-sm'>When you've been paid or need to notified to keep ypur wave payment operating</p>
+          <p className='text-[#00000088] text-sm'>When you have been paid or need to notified to keep ypur wave payment operating</p>
           <hr />
 
         </div>
@@ -36,7 +36,7 @@ export default function Setting() {
         </div>
         <div className='p-3'>
           <h1 className='font-semibold text-xl hover:cursor-pointer'>Purchases</h1>
-          <p className='text-[#00000088] text-sm'>Wjen receipt exports are ready and when receipts you've emailed to wave need to be posted into accounting.</p>
+          <p className='text-[#00000088] text-sm'>When receipt exports are ready and when receipts you have emailed to wave need to be posted into accounting.</p>
           <hr />
 
         </div>

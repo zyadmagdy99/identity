@@ -148,7 +148,7 @@ export default function Page() {
               <p>I agree to the <span>Terms & Conditions</span></p>
             </div>
             <button type='submit' className="bg-[#6E54B5] w-full h-[3rem] rounded-md">Create account</button>
-            <p className='text-sm'>"you can explore by clicking overview"</p>
+            <p className='text-sm'>you can explore by clicking overview</p>
           </div>
         </form>
         <div className="hidden md:flex sm:w-[40rem] lg:ms-[5rem] items-center">

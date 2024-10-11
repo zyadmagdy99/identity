@@ -37,7 +37,7 @@ export default function Create(values) {
             <form onSubmit={handlePost} className="flex gap-12 items-center flex-col w-full">
               <div className='flex flex-col'>
                 <h1 className="text-3xl text-bold">Create Post</h1>
-                  <p className="text-[#f6f6f8ad] text-sm mt-8">What's on your mind?</p>
+                  <p className="text-[#f6f6f8ad] text-sm mt-8">What is on your mind?</p>
               </div>
               <div className="flex w-[80%] lg:w-[50%] md:w-[60%] sm:w-[70%] flex-col justify-center items-center gap-8">
                 <textarea rows="8" className="w-full p-5 bg-[#4e495ef3] rounded-lg px-3 focus:outline-[#aa96e2]" name="body" id=""></textarea>

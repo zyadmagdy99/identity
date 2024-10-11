@@ -48,7 +48,7 @@ export default function Page() {
           <div className='flex flex-col'>
             <h1 className="text-3xl text-bold">Welcome Back</h1>
             <Link href="/login">
-              <p className="text-[#f6f6f8ad] text-sm mt-8">Don't have an account? <span className="text-[#aa96e2] underline">Register</span></p>
+              <p className="text-[#f6f6f8ad] text-sm mt-8">Don not have an account? <span className="text-[#aa96e2] underline">Register</span></p>
             </Link>
           </div>
           <div className="flex w-[80%] lg:w-[50%] md:w-[60%] sm:w-[70%] flex-col justify-center items-center gap-8">
